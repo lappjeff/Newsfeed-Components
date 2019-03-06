@@ -1,10 +1,9 @@
-// let menuSlide = new TimelineMax({paused: true, reversed: true})
 
 const toggleMenu = () => {
   // Toggle the "menu--open" class on your menu refence.
   menu.classList.toggle('menu--open')
   //GSAP Animations
-  TweenMax.to('.menu', 1.5, {left: '0', ease: Circ.easeOut})
+  TweenMax.from('.menu', 1.5, {left: '-350px', ease: Circ.easeOut})
 }
 
 // Start Here: Create a reference to the ".menu" class
