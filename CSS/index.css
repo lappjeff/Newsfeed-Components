@@ -52,6 +52,7 @@
   border: 1px solid #004D40;
   border-left: none;
   border-bottom: none;
+  transform-origin: left;
   z-index: 2;
   /* This set the layer level of the element, it has precendence over initial level of 1*/
 }
@@ -62,9 +63,6 @@
   text-align: center;
 }
 .menu--open {
-  display: block;
-}
-.menu-close {
   display: block;
 }
 .articles {
