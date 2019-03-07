@@ -1,3 +1,4 @@
+/* This line is importing the font 'Roboto'. DO NOT change line 2*/
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
@@ -40,7 +41,6 @@
   cursor: pointer;
 }
 .menu {
-  display: none;
   position: fixed;
   top: 75px;
   left: 0;
